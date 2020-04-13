@@ -65,3 +65,14 @@ p {
   font-size: 30px;
   color: #588da8;
 }
+
+/* Mobile */
+
+@media (max-width: 1000px) and (min-width: 360px) {
+  .msg-box {
+    width: 80%;
+  }
+  input {
+    width: 250px;
+  }
+}
